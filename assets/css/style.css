@@ -2,6 +2,7 @@ body {
 	background-color: #e7e7e7;
 	padding-top: 100px; 
 	width: 100%;
+
 }
 
 h2 {
@@ -103,6 +104,7 @@ h2 {
 	background-color: #fff;
 	margin-right: 5%;
 	padding: 2%;
+	margin-bottom: 130px;
 }
 
 #portfolio img {
@@ -111,7 +113,7 @@ h2 {
 	float: left;
 	width: 45%;
 	height: auto;
-	margin-bottom: 5%;
+	margin-bottom: 20px;
 }
 
 #portfolio img:nth-child(2n) {
@@ -137,6 +139,13 @@ h2 {
 	border-style: solid;
 	border-width: 0px 0px 1px 0px;
 	border-color: #ccc;
+}
+
+.connect img {
+	float: left;
+	height: auto;
+	max-width: 100px;
+	margin: 1%;
 }
 
 /* Footer */
