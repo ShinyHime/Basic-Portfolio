@@ -182,3 +182,93 @@ li, p {
 	border-width: 10px 0px 0px 0px;
 	border-color: #4aaaa5;
 }
+
+
+/*  Media Queries */
+
+@media only screen and (max-width: 980px ) {
+
+/* About Me */
+
+#aboutMe {
+	margin-bottom: 80px;
+}
+
+#profile {
+	height: auto;
+	width: 100%;
+	float: none;
+}
+
+#aboutMe .leftfloat p {
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+.connect img {
+	width: 20%;
+}
+
+} 
+
+
+
+
+
+@media only screen and (max-width: 726px ) {
+
+.nav ul li:first-child {
+	font-family: 'Georgia', Times New Roman, Times, serif;
+	list-style: none;
+	font-size: 1.5em;
+	float: left;
+	padding: 25px;
+	margin-left: 20px;
+	color: #fff;
+	background-color: #4aaaa5;
+}
+
+.nav ul li {
+	list-style: none;
+	float: right;
+	display: block;
+	font-size: .7em;
+	color: #4aaaa5;
+	height: 100%;
+}
+
+/* About Me */
+
+.container1 {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#profile {
+	width: 50%;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#aboutMe {
+	width: 100%;
+	margin-right: 0;
+	margin-bottom: 20px;
+}
+
+.connect {
+	width: 100%;
+	margin-bottom: 80px
+}
+
+.connect img {
+	width: 40px;
+}
+
+}
+
+@media only screen and (max-width: 640px ) {
+
+
+}
